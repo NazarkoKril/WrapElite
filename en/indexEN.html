@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styled.css" />
+    <!-- css -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Slider -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Animate.css -->
+    <script
+      src="https://kit.fontawesome.com/7c8801c017.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Social icon  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <!-- Telephone/JQuery -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- animate-aos -->
+    <link rel="icon" type="image/png" href="/img/logo_title.png" />
+    <!-- icon -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- pop up -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "344679321415975");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=344679321415975&ev=PageView&noscript=1"
+    /></noscript>
+    <title>rapElite</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <input type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#advantages">Advantages</a></li>
+            <li><a href="#serv">Services</a></li>
+            <li><a href="#serv_proc">Services Process</a></li>
+            <li><a href="#portfolio">Our Works</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li>
+              <a href="/indexIT.html"
+                ><img src="/img/italy-flag.png" height="30px" alt=""
+              /></a>
+            </li>
+          </ul>
+          <a href=""
+            ><img src="../img/logo.png" class="logo" height="35px" alt=""
+          /></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="hero">
+        <video
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+          playsinline=""
+          style="width: 100%; display: block; filter: brightness(0.8)"
+        >
+          <source src="../hero_video.mp4" class="video_hero" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="overlay_text">Make your car better</div>
+        <div class="overlay_btn">
+          <a class="overlay_btn_1" href="#form_section">ORDER HERE</a>
+        </div>
+      </section>
+      <section class="adventure" id="advantages">
+        <div class="container">
+          <div data-aos="fade-up" class="adveture_title">
+            WrapElite was born out of a passion for the automotive world and
+            deep professionalism in the field of decoration, consulting, graphic
+            design, and engine power enhancement. Our company is a recognized
+            leader in the field of wrapping and protecting PPF for cars,
+            motorcycles, and boats. We provide a full range of services for our
+            clients. Our team specializes in protection and decoration and can
+            also increase the power of your car through the reprogramming of the
+            original electronic control unit, allowing you to experience
+            additional horsepower and efficiency. We also offer body polishing
+            services to restore the shine and condition of your car's paintwork.
+            For the care of your vehicle's interior, we perform interior
+            detailing, ensuring freshness and cleanliness. Our goal is to make
+            your car, truck, motorcycle, or boat stylish, reliably protected,
+            and with enhanced power, ready for any challenges. Entrust us with
+            your property, and we will make it special.
+          </div>
+          <h2 data-aos="fade-up" class="adventure_title">Advantages</h2>
+          <ul class="adveture_list">
+            <li data-aos="flip-left" class="adveture_item">
+              <div class="adveture_icon">
+                <img src="/img/icon-professionalism.png" width="40px" alt="" />
+              </div>
+              <h3 class="adventure_subtitle">Experience and Professionalism</h3>
+              <p>
+                Our team consists of experts with years of experience in the
+                industry wrapping cars with film. We understand all the nuances
+                and use advanced technology to provide the best result.
+              </p>
+            </li>
+            <li data-aos="flip-left" class="adveture_item">
+              <div class="adveture_icon">
+                <img src="/img/icon-high-quality.png" width="40px" alt="" />
+              </div>
+              <h3 class="adventure_subtitle">
+                High-quality <br />
+                materials
+              </h3>
+              <p>
+                We use only the best materials, which guarantees durability and
+                resistance to external factors. Our films provide body
+                protection and preserve the brightness of the color
+              </p>
+            </li>
+            <li data-aos="flip-left" class="adveture_item">
+              <div class="adveture_icon">
+                <img src="/img/free-icon-solution.png" width="40px" alt="" />
+              </div>
+              <h3 class="adventure_subtitle">
+                Individual <br />
+                approach
+              </h3>
+              <p>
+                Every car is unique and we understand that. We work with you to
+                recreate your idea and create the design you dream of seeing on
+                your car
+              </p>
+            </li>
+            <li data-aos="flip-left" class="adveture_item">
+              <div class="adveture_icon">
+                <img src="/img/free-icon-protection.png" width="40px" alt="" />
+              </div>
+              <h3 class="adventure_subtitle">
+                Quality <br />
+                guarantee
+              </h3>
+              <p>
+                We believe in our quality, which is why we provide a guarantee
+                for all our work. You can be sure of long-lasting and reliable
+                pasting of yours car
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="services_section" id="serv">
+        <div class="container">
+          <h2 data-aos="fade-up" class="services_title">services</h2>
+          <div data-aos="fade-up" class="swiper swiper-serv">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper swiper-wrap-serv">
+              <!-- Slides -->
+              <div class="swiper-slide serv_item">
+                <div class="serv_box">
+                  <img src="/img/wrapping-car.png" alt="" />
+                </div>
+                <h3 class="serv_subtitle">Wrapping auto</h3>
+                <p class="serv_info">
+                  Vehicle wrapping with film is a modern way to change the
+                  appearance of your car and protect it from scratches and
+                  environmental factors. Using special adhesive film, you can
+                  create a unique design, preserve the original paintwork, and
+                  even use your vehicle for advertising.
+                </p>
+                <div class="serv_btn">
+                  <a class="serv_btn_1" href="#form">order</a>
+                </div>
+              </div>
+              <div class="swiper-slide serv_item">
+                <div class="serv_box">
+                  <img src="/img/protection.png" alt="" />
+                </div>
+                <h3 class="serv_subtitle">Paint Protection Film</h3>
+                <p class="serv_info">
+                  Paint Protection Film (PPF) is a thick yet transparent layer
+                  applied to protect your car from potential damages while
+                  preserving its original appearance. It is made from
+                  polyurethane film with a thickness ranging from 160 to 210
+                  microns, depending on your requirements.
+                </p>
+                <div class="serv_btn">
+                  <a class="serv_btn_1" href="#form">order</a>
+                </div>
+              </div>
+              <div class="swiper-slide serv_item">
+                <div class="serv_box">
+                  <img src="/img/auto-tinting.png" alt="" />
+                </div>
+                <h3 class="serv_subtitle">Car tinting</h3>
+                <p class="serv_info">
+                  Cater to your comfort and privacy with our window tinting
+                  services. We offer stylish and effective solutions to reduce
+                  direct sunlight, increase privacy, and protect against harmful
+                  UV rays.Tint the windows of your car, home, or office with us
+                  and enjoy comfort and style every day.
+                </p>
+                <div class="serv_btn">
+                  <a class="serv_btn_1" href="#form">order</a>
+                </div>
+              </div>
+              <div class="swiper-slide serv_item">
+                <div class="serv_box">
+                  <img src="/img/Chip-tuning.jpg" alt="" />
+                </div>
+                <h3 class="serv_subtitle">Chip tuning</h3>
+                <p class="serv_info">
+                  Chip tuning is a method of increasing the engine's power by
+                  unlocking the manufacturer's hidden potential to extend its
+                  lifespan. Engine "chipping" can be done by reprogramming the
+                  original electronic control unit of the vehicle.
+                </p>
+                <div class="serv_btn">
+                  <a class="serv_btn_1 serv_soon">soon</a>
+                </div>
+              </div>
+              <div class="swiper-slide serv_item">
+                <div class="serv_box">
+                  <img src="/img/Polishing.jpg" alt="" />
+                </div>
+                <h3 class="serv_subtitle">Polishing</h3>
+                <p class="serv_info">
+                  Polishing is an essential part of car care, aimed at restoring
+                  the shine and quality of the paintwork. This process involves
+                  the removal of minor scratches, blemishes, water spots, and
+                  other external imperfections that can occur due to vehicle
+                  usage.
+                </p>
+                <div class="serv_btn">
+                  <a class="serv_btn_1" href="#form">order</a>
+                </div>
+              </div>
+              <div class="swiper-slide serv_item">
+                <div class="serv_box">
+                  <img src="/img/Interior_detailing.jpg" alt="" />
+                </div>
+                <h3 class="serv_subtitle">Interior detailing</h3>
+                <p class="serv_info">
+                  "Interior detailing is an important procedure to maintain
+                  cleanliness and freshness inside your car. Using specialized
+                  chemicals and equipment, we carefully clean all interior
+                  surfaces, including seats, panels, carpets, and more.
+                </p>
+                <div class="serv_btn">
+                  <a class="serv_btn_1" href="#form">order</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need pagination -->
+          </div>
+        </div>
+      </section>
+      <section class="service_section" id="serv_proc">
+        <div class="container">
+          <h2 data-aos="fade-up" class="service_title">Service process</h2>
+          <ul class="service_list">
+            <li data-aos="flip-left" class="service_item">
+              <div class="service_icon">
+                <img
+                  src="/img/round-1-removebg-preview.png"
+                  width="70px"
+                  alt=""
+                  class="service_img"
+                />
+              </div>
+              <h3 class="service_subtitle">
+                Determination of the type and complexity of work
+              </h3>
+              <p>
+                The main task of our center is to satisfy all the wishes of our
+                customers. We evaluate the performance of the work and proceed
+                to the next stage.
+              </p>
+            </li>
+            <li data-aos="flip-left" class="service_item">
+              <div class="service_icon">
+                <img
+                  src="/img/round-2-removebg-preview.png"
+                  width="70px"
+                  alt=""
+                  class="service_img"
+                />
+              </div>
+              <h3 class="service_subtitle">
+                Estimates and <br />
+                terms
+              </h3>
+              <p>
+                After we have decided on what exactly is necessary for your car,
+                we agree with you on the price, as well as the terms of the
+                work. We value your time, which is why we strictly adhere to the
+                deadlines for the work!
+              </p>
+            </li>
+            <li data-aos="flip-left" class="service_item">
+              <div class="service_icon">
+                <img
+                  src="/img/round-3-removebg-preview.png"
+                  width="70px"
+                  alt=""
+                  class="service_img"
+                />
+              </div>
+              <h3 class="service_subtitle">
+                Execution of <br />
+                works
+              </h3>
+              <p>Then the "miracle" of our team's professionalism begins.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio_section" id="portfolio">
+        <div class="container">
+          <h2 data-aos="fade-up" class="portfolio_title">Our Works</h2>
+
+          <div class="gallery">
+            <div data-aos="fade-up" class="gallery__strip__wrapper">
+              <div class="gallery__strip one">
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_1.jpg" />
+                  </div>
+                  <div class="photo__name">porsche</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_2.jpg" />
+                  </div>
+                  <div class="photo__name">BMW/VW</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_3.jpg" />
+                  </div>
+                  <div class="photo__name">ABARTH</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_4.jpg" />
+                  </div>
+                  <div class="photo__name">FERRARI</div>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" class="gallery__strip__wrapper">
+              <div class="gallery__strip two">
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_5.jpg" />
+                  </div>
+                  <div class="photo__name">lamborghini</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_6.jpg" />
+                  </div>
+                  <div class="photo__name">porsche</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_7.jpg" />
+                  </div>
+                  <div class="photo__name">AUDI</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_8.jpg" />
+                  </div>
+                  <div class="photo__name">porsche</div>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" class="gallery__strip__wrapper">
+              <div class="gallery__strip three">
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_9.jpg" />
+                  </div>
+                  <div class="photo__name">porsche</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_10.jpg" />
+                  </div>
+                  <div class="photo__name">range rover</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_11.jpg" />
+                  </div>
+                  <div class="photo__name">TESLA</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_12.jpeg" />
+                  </div>
+                  <div class="photo__name">FERRARI</div>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" class="gallery__strip__wrapper">
+              <div class="gallery__strip four">
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_13.jpeg" />
+                  </div>
+                  <div class="photo__name">volkswagen</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_14.jpg" />
+                  </div>
+                  <div class="photo__name">lamborghini</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_15.jpg" />
+                  </div>
+                  <div class="photo__name">audi</div>
+                </div>
+                <div class="photo">
+                  <div class="photo__image">
+                    <img src="../img/auto/auto_16.jpeg" />
+                  </div>
+                  <div class="photo__name">porsche</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="review_section" id="reviews">
+        <div class="container">
+          <h2 data-aos="fade-up" class="reviews_title">reviews</h2>
+          <div data-aos="fade-up" class="swiper swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide review_slider">
+                <div class="image-wrapper">
+                  <div class="img-review_slide">
+                    <img class="review_img" src="../img/profile_1.jpg" alt="" />
+                  </div>
+
+                  <h3 class="review_name">Marco Rossi</h3>
+                  <p class="review_years">32 years - Milan</p>
+                  <p class="review_info">
+                    Your guys did a fantastic job wrapping my car. It looks
+                    stylish and scratch-resistant. I recommend your service!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide review_slider">
+                <div class="image-wrapper">
+                  <div class="img-review_slide">
+                    <img class="review_img" src="../img/profile_1.jpg" alt="" />
+                  </div>
+
+                  <h3 class="review_name">Alessia Bianchi</h3>
+                  <p class="review_years">28 years - Rome</p>
+                  <p class="review_info">
+                    Very satisfied with the result of your team's work. My car
+                    now looks like new and I feel it is well protected. Thank
+                    you very much!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide review_slider">
+                <div class="image-wrapper">
+                  <div class="img-review_slide">
+                    <img class="review_img" src="../img/profile_1.jpg" alt="" />
+                  </div>
+
+                  <h3 class="review_name">Luca Marchesi</h3>
+                  <p class="review_years">35 years - Neapol</p>
+                  <p class="review_info">
+                    Wrapped my sports car in your service and the result
+                    exceeded my expectations. The quality of the work is top
+                    notch and it was extremely professional.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide review_slider">
+                <div class="image-wrapper">
+                  <div class="img-review_slide">
+                    <img class="review_img" src="../img/profile_1.jpg" alt="" />
+                  </div>
+
+                  <h3 class="review_name">Sofia Moretti</h3>
+                  <p class="review_years">29 years - Turin</p>
+                  <p class="review_info">
+                    I have long dreamed of wrapping my car with film and your
+                    service exceeded my expectations. Your team turned out to be
+                    very professional and the result is just great!
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide review_slider">
+                <div class="image-wrapper">
+                  <div class="img-review_slide">
+                    <img class="review_img" src="../img/profile_1.jpg" alt="" />
+                  </div>
+
+                  <h3 class="review_name">Giovanni Romano</h3>
+                  <p class="review_years">40 years - Florencia</p>
+                  <p class="review_info">
+                    I covered my car with a film in your service and was
+                    impressed by the quality of work. Your specialists showed
+                    great professionalism and attention to detail. Now my car
+                    looks like a masterpiece of art on wheels.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="review_btn">
+            <a data-aos="fade-up" class="review_btn_1" id="openPopupButton"
+              >Leave a review</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="form_section" class="form_section">
+        <div data-aos="flip-left" class="form form_container">
+          <form action="#" id="form" class="form_body">
+            <h2 class="form_title">order here</h2>
+            <div class="form_item">
+              <label for="formName" class="form_label">Name*:</label>
+              <input
+                id="formName"
+                type="text"
+                name="name"
+                class="form_input _req"
+              />
+            </div>
+
+            <div class="form_item">
+              <label for="formEmail" class="form_label">E-mail*:</label>
+              <input
+                id="formEmail"
+                type="text"
+                name="email"
+                class="form_input _req _email"
+              />
+            </div>
+            <div class="form_item">
+              <label for="phone" class="form_label">Phone*:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+39 __ __ __ __ __"
+                class="form_input _req _phone phoneInput"
+              />
+            </div>
+            <div class="form_item">
+              <label for="formMessage" class="form_label">Message:</label>
+              <textarea
+                name="message"
+                id="formMessage"
+                class="form_input form_input_textarea"
+              ></textarea>
+            </div>
+            <button class="form_btn form_btn_1" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer data-aos="fade-up" id="footer">
+      <img
+        src="/img/footer.jpg"
+        style="width: 100%; display: block; height: auto"
+      />
+      <div class="container footer-container">
+        <h2 class="overlay_footer_text">
+          We specialize in professional wrapping of cars with film. Our team
+          takes care of your cars as if they were our own. Contact us to
+          personalize your car and protect it from scratches and wear.
+        </h2>
+        <div class="contact">
+          <h3 class="contact-title">Contact us</h3>
+
+          <a class="contact-link footer-tel" href="tel:+48223402980"
+            >Tel.: +39 388 891 3678
+          </a>
+          <a class="contact-link" href="mailto:romawrap23@gmail.com"
+            >Email: romawrap23@gmail.com</a
+          >
+        </div>
+
+        <ul class="social-icons">
+          <li>
+            <a
+              href="https://instagram.com/r.m.srl_ppf_wrap?igshid=MzRlODBiNWFlZA=="
+            >
+              <span class="line"></span>
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/roman.bellini.58">
+              <span class="line"></span>
+              <i class="fa-brands fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/+393888913678">
+              <span class="line"></span>
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://web.telegram.org/a/#6577904551">
+              <span class="line"></span>
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/@romanwrapping1789/videos">
+              <span class="line"></span>
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div id="popup" class="popup animate__animated animate__fadeIn">
+      <div class="popup-content">
+        <span class="close" id="closePopupButton">X</span>
+        <h2 class="form_title_pop">Leave a review about our company</h2>
+        <form id="feedbackForm" class="review_form" action="#">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            class="popup_input _req1"
+          />
+
+          <input
+            type="text"
+            id="surname"
+            name="surname"
+            placeholder="Surname"
+            class="popup_input _req1"
+          />
+
+          <input
+            type="number"
+            id="age"
+            name="age"
+            placeholder="Age"
+            min="1"
+            max="150"
+            class="popup_input _req1"
+          />
+
+          <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="City"
+            class="popup_input _req1"
+          />
+
+          <textarea
+            id="review"
+            name="review"
+            rows="6"
+            placeholder="Text input"
+            class="popup_input _req1"
+          ></textarea>
+
+          <div class="review_popup_btn">
+            <button type="submit" class="form_btn form_btn_1">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="successPopup" class="popup animate__animated animate__fadeIn">
+      <div class="popup-content">
+        <h2 class="success_title">Success!</h2>
+        <p class="success_message">Your review has been successfully sent.</p>
+      </div>
+    </div>
+
+    <div class="modal-image">
+      <span class="close-image">&times;</span>
+      <img class="modal-content-image" id="modalImg" />
+    </div>
+
+    <script src="/js/maska-nomera.js" type="text/javascript"></script>
+    <script>
+      $(".phoneInput").mask("+39-888-888-8888");
+
+      $.fn.setCursorPosition = function (pos) {
+        if ($(this).get(0).setSelectionRange) {
+          $(this).get(0).setSelectionRange(pos, pos);
+        } else if ($(this).get(0).createTextRange) {
+          var range = $(this).get(0).createTextRange();
+          range.collapse(true);
+          range.moveEnd("character", pos);
+          range.moveStart("character", pos);
+          range.select();
+        }
+      };
+
+      $('input[type="tel"]').click(function () {
+        $(this).setCursorPosition(4);
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="/js/index.js"></script>
+  </body>
+</html>
